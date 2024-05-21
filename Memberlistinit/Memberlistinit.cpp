@@ -9,3 +9,8 @@ using namespace std;
 //Minimal commit = 15
 
 class mahasiswa {
+private:
+	const int id;
+	string nama;
+	float nilai;
+
