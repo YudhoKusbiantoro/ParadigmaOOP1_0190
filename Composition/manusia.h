@@ -7,4 +7,8 @@ public:
 	string name;
 	jantung varjantung;
 
+	manusia(string pName)
+		: name(pName) {
+		cout << name << " hidup\n";
+	}
 	
